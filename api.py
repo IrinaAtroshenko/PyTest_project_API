@@ -6,7 +6,6 @@ from settings import Credentials
 class Pets:
     """ API библиотека к сайту http://34.141.58.52:8080/#/"""
     def __init__(self):
-        # self.my_token = None
         self.base_url = 'http://34.141.58.52:8000/'
 
     def get_registration(self) -> json:
@@ -168,6 +167,3 @@ class Pets:
 # Pets().delete_pet()
 # Pets().delete_all_pets()
 # Pets().delete_user()
-
-
-# pytest tests/tests_pet.py
